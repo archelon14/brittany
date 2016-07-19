@@ -71,21 +71,21 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: 400;
-  color: #ca8799; /* IE8 proofing */
-  /*color: rgba(255,255,255,.75);*/
+  color: #676C7F; /* IE8 proofing */
+  color: rgba(103,108,127,.75);
   border-bottom: 2px solid transparent;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #ca8799;
-  border-bottom-color: rgba(255,255,255,.25);
+  border-bottom-color: #676C7F;
+  border-bottom-color: rgba(103,108,127,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #ca8799;
-  border-bottom-color: #ca8799;
+  color: #676C7F;
+  border-bottom-color: #676C7F;
 }
 
 @media (min-width: 768px) {
@@ -189,4 +189,8 @@ body {
 #git:hover,
 #pay:hover {
     opacity: 1;
+}
+
+.topSpace {
+  padding-top: 100px;
 }
